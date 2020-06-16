@@ -34,7 +34,9 @@ Python Libraries:
 
 #### Source Data
 
-There are 73 problems obtained from NCI (We sincerely acknowledge the atom-bond information provided by Ing. Gustav Sourek of Czech Technical University in Prague). The data source including the extracted domain relations will be made available somewhere else (non-GitHub site) due to storage issues.
+There are 73 problems obtained from NCI. The data source including the extracted domain relations will be made available somewhere else (non-GitHub site) due to storage issues.
+
+Temporarity, this is hosted in the Google Drive: [DataForVEGNN!](https://drive.google.com/file/d/1eJrq_kvD2UmWiWe6F3C3Ire0fbv6CNrm/view?usp=sharing). The compressed file contains all data required for the work. Soon, we should be able to host these generated datasets with some well-known Benchmark websites. The information will be updated in this site, when that happens.
 
 
 #### Working Data directory
