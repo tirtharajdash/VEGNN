@@ -1,2 +1,101 @@
-# VEGNN
-Vertex-Enriched Graph Neural Network (VEGNN)
+### Vertex-Enriched Graph Neural Network (VEGNN)
+
+
+This is my work directory of our submission to Machine Learning Journal. The work is based on the Vertex-Enrichment process of Graph Neural Networks. That is: augmenting the node features with relational-features obtained by using symbolic domain-knowledge. We treat these symbolic relations as hyperedges meaning any relation or a relational feature is a hyperedge. For more information on this, please go through our paper. 
+
+
+
+#### Machine, Tools and Requirements
+
+Machine specification:
+
+  * `Machine: Dell 5810`
+  * `RAM: 64GB`
+  * `Processor: Intel 16-Core Xeon (3.10GHz)`
+  * `GPU: NVIDIA P4000 (8GB VRAM)`
+  * `OS: Ubuntu Linux 16.04.6 LTS (64bit)`
+
+Tools used in this work:
+
+  * `Editor: vi/vim`
+  * `Execution: Linux-Shell`
+  * `MATLAB R2018b (64bit)`
+  * `Prolog compiler: YAP 6.2.2`
+  * `ILP Engine: Aleph`
+  * `CUDA 10.1.105`
+  * `Python 3.7.6`
+
+Python Libraries:
+ 
+  * `torch 1.4.0`
+  * `torch_geometric 1.2.1`
+  * `numpy 1.18.1`
+
+
+#### Source Data
+
+There are 73 problems obtained from NCI (We sincerely acknowledge the atom-bond information provided by Ing. Gustav Sourek of Czech Technical University in Prague). The data source including the extracted domain relations will be made available somewhere else (non-GitHub site) due to storage issues.
+
+
+#### Working Data directory
+
+A temporary data directory is created in `./data`. Under this there are two two directories for processing: `./data/raw` and `./data/processed`. Purposefully, the files are kept empty for uploading to GitHub. The split information gets copied to `./data/train_split` and `./data/test_split`.
+
+
+#### Shell scripts
+
+The script "run.bash" is one-shot execution of all methods. 
+
+`
+bash run.bash
+`
+
+The script "resultsummary.bash" summarises the results for each dataset. For this, one needs to supply the result directory as an argument. For example:
+
+`
+bash resultsummary.bash Result_dir_name
+`
+
+To store the results in a file:
+
+`
+bash resultsummary.bash Result_dir_name > Result_file_name.txt
+`
+
+To store only dataset and accuracy, one can *gawk* out the columns and then redirect to some file.
+
+
+**added 1:** One can now create a full summary with regard to all the datasets and features for any particular method. See the following for help about the new summarising script.
+
+`
+bash createressum.bash --help
+`
+
+
+**added 2:** Added a Python script to load a (trained) saved model and print the structure
+
+`
+python modelsummary.py
+`
+
+**added 3:** Code to load the saved models for deployment. Deployment refers to testing the trained model on unseen data. For us this is: test data. Added also the printing model code in this. So, no need to explicitly use the modelsummary.py code given in "added 2".
+
+`
+bash test.bash
+`
+
+Some results from this are saved in the file `testedsavedmodels.out`.
+
+
+
+**added 4:** The `createressum_*.bash` files summarise the results.
+
+`
+bash createressum_[enter].bash --help
+`
+
+
+#### Cite
+```
+Will be added after the paper is accepted.
+```

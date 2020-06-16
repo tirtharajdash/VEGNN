@@ -1,0 +1,39 @@
+(base) dell5810@dell5810:~/tdash/VEGNN$ conda activate vegnn
+(vegnn) dell5810@dell5810:~/tdash/VEGNN$ bash test.bash
+Working on: gi50_screen_786_0
+0.671103
+Processing...
+Done!
+DS(3504)
+7
+Test:: loss:0.6132837227145529	accuracy:0.6711026615969582
+Working on: gi50_screen_A498
+0.667625
+Processing...
+Done!
+DS(3478)
+7
+Test:: loss:0.6289802338085869	accuracy:0.6676245210727969
+Working on: gi50_screen_A549_ATCC
+0.592857
+Processing...
+Done!
+DS(3732)
+7
+Test:: loss:0.6838486249425582	accuracy:0.5928571428571429
+Working on: gi50_screen_ACHN
+0.652502
+Processing...
+Done!
+DS(3529)
+7
+Test:: loss:0.6494781360297522	accuracy:0.6525023607176582
+Working on: gi50_screen_BT_549
+0.679472
+Processing...
+Done!
+DS(2776)
+7
+Test:: loss:0.63106062088837	accuracy:0.6794717887154862
+(vegnn) dell5810@dell5810:~/tdash/VEGNN$ 
+
