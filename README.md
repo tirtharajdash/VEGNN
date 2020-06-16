@@ -3,6 +3,7 @@
 
 This is my work directory of our submission to Machine Learning Journal. The work is based on the Vertex-Enrichment process of Graph Neural Networks. That is: augmenting the node features with relational-features obtained by using symbolic domain-knowledge. We treat these symbolic relations as hyperedges meaning any relation or a relational feature is a hyperedge. For more information on this, please go through our paper. 
 
+We will be updating new experiments that we have conducted (or will conduct) in some other repository. We shall update this README accordingly.
 
 
 #### Machine, Tools and Requirements
@@ -36,7 +37,7 @@ Python Libraries:
 
 There are 73 problems obtained from NCI. The data source including the extracted domain relations will be made available somewhere else (non-GitHub site) due to storage issues.
 
-Temporarity, this is hosted in the Google Drive: [DataForVEGNN!](https://drive.google.com/file/d/1eJrq_kvD2UmWiWe6F3C3Ire0fbv6CNrm/view?usp=sharing). The compressed file contains all data required for the work. Soon, we should be able to host these generated datasets with some well-known Benchmark websites. The information will be updated in this site, when that happens.
+Temporarity, this is hosted in the Google Drive: [DataForVEGNN](https://drive.google.com/file/d/1eJrq_kvD2UmWiWe6F3C3Ire0fbv6CNrm/view?usp=sharing). The compressed file contains all data required for the work. Soon, we should be able to host these generated datasets with some well-known Benchmark websites. The information will be updated in this site, when that happens.
 
 
 #### Working Data directory
