@@ -98,7 +98,14 @@ bash createressum_[enter].bash --help
 `
 
 
+#### Note on Reproducibility
+
+
+The implementations have been carried out using [PyTorch](https://pytorch.org/docs/stable/index.html). All the experiments are conducted by setting a fixed seed for the Random Number Generator (RNG). Although we believe that this should be sufficient to reproduce all the experiments; we note the [official statement](https://pytorch.org/docs/stable/notes/randomness.html) from PyTorch on reproducibility: "Completely reproducible results are not guaranteed across PyTorch releases, individual commits or different platforms. Furthermore, results need not be reproducible between CPU and GPU executions, even when using identical seeds."
+
+
 #### Cite
+
 ```
 Will be added after the paper is accepted.
 ```
