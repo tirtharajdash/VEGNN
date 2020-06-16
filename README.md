@@ -106,6 +106,4 @@ The implementations have been carried out using [PyTorch](https://pytorch.org/do
 
 #### Cite
 
-```
-Will be added after the paper is accepted.
-```
+This work is under review at Springer Machine Learning Journal. Additional citation details will be updated after acceptance of the article.
