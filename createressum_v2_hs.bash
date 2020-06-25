@@ -5,14 +5,14 @@
 
 if [ $# -eq 0 ]
 then
-	echo "No result filename is passed as argument; see help with: bash $0 --help"
+	echo "No method is passed; see help with: bash $0 --help"
 	exit 1
 fi
 
 if [ "$1" == "--help" ]
 then
 	echo "Help: Enter a filename as argument to the program."
-	echo "Example: bash $0 myfile"
+	echo "Example: bash $0 VEGNN"
 	exit 1
 fi
 
