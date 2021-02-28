@@ -106,4 +106,18 @@ The implementations have been carried out using [PyTorch](https://pytorch.org/do
 
 #### Cite
 
-This work is under review at Springer Machine Learning Journal. Additional citation details will be updated after acceptance of the article.
+[New] This work is now accepted at Springer Machine Learning Journal (Feb 19, 2021)
+
+[Preprint] The manuscript is available as a [pre-print](https://arxiv.org/abs/2010.13900). Cite as:
+
+`
+@misc{dash2021incorporating,
+      title={Incorporating Symbolic Domain Knowledge into Graph Neural Networks}, 
+      author={Tirtharaj Dash and Ashwin Srinivasan and Lovekesh Vig},
+      year={2021},
+      eprint={2010.13900},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+`
+[Old] This work is under review at Springer Machine Learning Journal. Additional citation details will be updated after acceptance of the article.
