@@ -111,13 +111,20 @@ The implementations have been carried out using [PyTorch](https://pytorch.org/do
 [Preprint] The manuscript is available as a [pre-print](https://arxiv.org/abs/2010.13900). Cite as:
 
 <pre>
-@misc{dash2021incorporating,
-      title={Incorporating Symbolic Domain Knowledge into Graph Neural Networks},
-      author={Tirtharaj Dash and Ashwin Srinivasan and Lovekesh Vig},
-      year={2021},
-      eprint={2010.13900},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{DBLP:journals/corr/abs-2010-13900,
+  author    = {Tirtharaj Dash and
+               Ashwin Srinivasan and
+               Lovekesh Vig},
+  title     = {Incorporating Symbolic Domain Knowledge into Graph Neural Networks},
+  journal   = {CoRR},
+  volume    = {abs/2010.13900},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2010.13900},
+  archivePrefix = {arXiv},
+  eprint    = {2010.13900},
+  timestamp = {Mon, 02 Nov 2020 18:17:09 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2010-13900.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 </pre>
 
